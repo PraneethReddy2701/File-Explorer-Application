@@ -34,6 +34,8 @@ run(): Main loop for interacting with the user.
 displayPrompt(): Displays the command prompt.
 handleUserInput(grep "handleUserInput" path/to/file.cpp): Handles user input and invokes corresponding methods on CommandParser.
 
+
+
 Low Level Diagrams:
 ------------------
 

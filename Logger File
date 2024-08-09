@@ -1,0 +1,13 @@
+[2024-08-09 12:09:20] File Explorer application started
+[2024-08-09 12:09:35] Listed files in the current directory
+[2024-08-09 12:10:05] Created file: Praneeth.txt
+[2024-08-09 12:10:14] Created file: Souvik.txt
+[2024-08-09 12:10:22] Created file: Dhanashri.txt
+[2024-08-09 12:10:44] Copied file from Praneeth.txt to newfile.txt
+[2024-08-09 12:11:11] Created file: testfile.txt
+[2024-08-09 12:11:25] Moved file from Souvik.txt to testfile.txt
+[2024-08-09 12:11:47] Searched for file: Dhanashri.txt
+[2024-08-09 12:12:52] Changed permissions for file: Praneeth.txt to 777
+[2024-08-09 12:13:40] Deleted file: newfile.txt
+[2024-08-09 12:14:00] Changed directory to src
+[2024-08-09 12:14:09] Listed files in the current directory

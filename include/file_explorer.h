@@ -2,18 +2,22 @@
 #define FILEEXPLORER_H
 
 #include <string>
+#include "Logger.h"
 
-class FileExplorer
-{
+class FileExplorer {
 public:
+    explicit FileExplorer(Logger& logger);
+
     void listFiles(const std::string& directory);
-    void changeDirectory(const std::string& directory);
-    void searchFiles(const std::string& directory, const std::string& filename);
-    void setPermissions(const std::string& filename, int mode);
-    void createFile(const std::string& filename);
-    void copyFile(const std::string& source, const std::string& destination);
-    void moveFile(const std::string& source, const std::string& destination);
-    void deleteFile(const std::string& filename);
+    bool copyFile(const std::string& src, const std::string& dest);
+    bool moveFile(const std::string& src, const std::string& dest);
+    bool deleteFile(const std::string& path);
+    bool createFile(const std::string& path);
+    bool searchFile(const std::string& filename);
+    bool setPermissions(const std::string& path, int permissions);
+
+private:
+    Logger& logger_;
 };
 
 #endif // FILEEXPLORER_H
